@@ -22,5 +22,7 @@ How to map NEE in regions that lack state-of-the-art observations? This reposito
 - Leave-one-out XGBoost training and prediction strategy
 - single location prediction visualization 
 - Full model training processes on all sites
+
 (2). `XGBoost_workflow.ipynb`: a simplified demo for the `XGBoost` model input feature preparation, poointing out the required features for the following prediction;
+
 (3). `LSTM_NEE_exp2.ipynb`/`LSTM_NEE_exp2.ipynb`: LSTM model was applied based on the same 'loaded dataset' and training strategy as the `XGBoost` model, but as the performance is worse than `XGBoost` model, the `LSTM` NEE mapping model is discarded and only shown here as a demo. 
